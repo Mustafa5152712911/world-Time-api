@@ -37,7 +37,7 @@
 				<workerType>Micro</workerType>
 				<applicationName>worldtimeZone-service</applicationName>
 				<password>Apisero@51525354</password>
-				<muleVersion>4.1.4</muleVersion>
+				<muleVersion>4.2.1</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
