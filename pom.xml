@@ -9,20 +9,14 @@
     <packaging>mule-application</packaging>
 
 	<name>cicd_demo</name>
-
-      
-      
-      
-      
-      <properties>
+    <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.2.1</app.runtime>
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	</properties>
-
-	<build>
+<build>
 		<plugins>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
@@ -35,7 +29,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>worldtimeZone-service</applicationName>
+				<applicationName>worldtimeZone-service-cloud</applicationName>
 				<password>Apisero@51525354</password>
 				<muleVersion>4.2.1</muleVersion>
 				</cloudHubDeployment>
